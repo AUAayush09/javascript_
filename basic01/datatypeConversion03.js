@@ -25,3 +25,13 @@ console.log(typeof score4);// object
  let valueInNumber3 = Number(score4);
  console.log(typeof (valueInNumber3));// number
  console.log(valueInNumber3);// 0
+
+ // for 1 => true. & for 0 => false
+ // empty space "" => false
+ // for string "Aayush" => true
+
+ let numberaString = 89;
+
+ let stringNumber = String(numberaString);
+ console.log(stringNumber);
+ console.log(typeof stringNumber);
