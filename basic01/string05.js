@@ -34,3 +34,9 @@ console.log(url.replace('%20', '-'))
 console.log(url.includes('sundari'))
 
 console.log(gameName.split('-'));
+
+// ---> String.prototype.charAt()
+
+const anyString = "Brave new world";
+console.log(`The character at index 0   is '${anyString.charAt()}'`);
+// No index was provided, used 0 as default
