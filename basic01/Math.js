@@ -40,3 +40,11 @@ console.log(Math.floor(Math.random() * 3 + 1));
 // & all length 
 const anyName = "Aayush";
 console.log(anyName.charAt(Math.floor(Math.random() * anyName.length)))
+
+
+// and again finding the particular number from 10 to 20;
+
+const min = 10
+const max = 20
+
+console.log(Math.floor(Math.random() * (max - min + 1)) + min)
