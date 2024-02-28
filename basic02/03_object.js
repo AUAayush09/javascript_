@@ -20,7 +20,8 @@ const JsUser = {
 // console.log(JsUser.email)
 // console.log(JsUser["email"])
 // console.log(JsUser["full name"])
-// console.log(JsUser[mySym])
+console.log(JsUser[mySym])
+console.log(JsUser)
 
 JsUser.email = "aa@chatgpt.com"
 // Object.freeze(JsUser)
@@ -31,7 +32,7 @@ JsUser.greeting = function(){
     console.log("Hello JS user");
 }
 JsUser.greetingTwo = function(){
-    console.log(`Hello JS user, ${this.name}`);
+    console.log(`Hello JS user, ${this.name}`);// string interpolation;
 }
 
 console.log(JsUser.greeting());
