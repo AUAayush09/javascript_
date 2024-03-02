@@ -35,7 +35,7 @@ const chai =  () => {
 
 // chai()
 
-// const addTwo = (num1, num2) => {
+// const addTwo = (num1, num2) => { // ++normal/explicit arrow function
 //     return num1 + num2
 // }
 
@@ -43,7 +43,7 @@ const chai =  () => {
 
 // const addTwo = (num1, num2) => ( num1 + num2 )
 
-const addTwo = (num1, num2) => ({username: "hitesh"})
+const addTwo = (num1, num2) => ({username: "hitesh"}) // implicite arrow function
 
 
 console.log(addTwo(3, 4))
